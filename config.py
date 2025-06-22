@@ -1,0 +1,6 @@
+EXTERNAL_API_BASE = "Removed keys"
+SUPPLIER_LIST_ENDPOINT = "Removed keys"
+SUPPLIER_DETAIL_ENDPOINT = "Removed keys"
+MODEL_NAME = "Removed keys"
+CHROMA_DB_PATH = "Removed keys"
+GOOGLE_API_KEY = "Removed keys"
