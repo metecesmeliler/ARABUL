@@ -1,0 +1,23 @@
+chromadb==0.5.23
+fastapi==0.115.6
+pydantic==2.10.3
+sentence-transformers==3.3.1
+torch==2.6.0
+uvicorn==0.32.1
+requests==2.32.3
+googletrans~=4.0.0rc1
+argon2-cffi==21.3.0
+aiosmtplib==2.0.0
+email-validator==2.0.0.post2
+python-dotenv==1.0.0
+deep-translator~=1.11.4
+pytest~=8.3.5
+mysql-connector-python ==9.3.0
+google-auth == 2.40.1
+PyJWT == 2.10.1
+locust==2.37.3
+anyio~=4.9.0
+openai ~= 1.79.0
+
+
+
