@@ -1,0 +1,64 @@
+{
+  "name": "arabul",
+  "expo": {
+    "name": "Arabul",
+    "slug": "arabul",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.arabul",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "Removed keys"
+        }
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.anonymous.arabul"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "scheme": "arabul",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "expo-web-browser",
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "Removed ID"
+      }
+    }
+  }
+}
